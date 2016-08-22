@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AC910581D6B3D5B00790365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC910571D6B3D5B00790365 /* main.m */; };
+		9AC9105B1D6B3D5B00790365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9105A1D6B3D5B00790365 /* AppDelegate.m */; };
+		9AC9105E1D6B3D5B00790365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9105D1D6B3D5B00790365 /* ViewController.m */; };
+		9AC910611D6B3D5B00790365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC9105F1D6B3D5B00790365 /* Main.storyboard */; };
+		9AC910631D6B3D5B00790365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC910621D6B3D5B00790365 /* Assets.xcassets */; };
+		9AC910661D6B3D5B00790365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC910641D6B3D5B00790365 /* LaunchScreen.storyboard */; };
+		9AC910701D6B3DEB00790365 /* ZSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9106F1D6B3DEB00790365 /* ZSTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9AC910531D6B3D5B00790365 /* iOSKnowledgePoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKnowledgePoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC910571D6B3D5B00790365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AC910591D6B3D5B00790365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AC9105A1D6B3D5B00790365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AC9105C1D6B3D5B00790365 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AC9105D1D6B3D5B00790365 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AC910601D6B3D5B00790365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC910621D6B3D5B00790365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC910651D6B3D5B00790365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC910671D6B3D5B00790365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC9106E1D6B3DEB00790365 /* ZSTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSTools.h; sourceTree = "<group>"; };
+		9AC9106F1D6B3DEB00790365 /* ZSTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC910501D6B3D5B00790365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AC9104A1D6B3D5B00790365 = {
+			isa = PBXGroup;
+			children = (
+				9AC9106D1D6B3DCD00790365 /* ZS_Tools */,
+				9AC910551D6B3D5B00790365 /* iOSKnowledgePoint */,
+				9AC910541D6B3D5B00790365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC910541D6B3D5B00790365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC910531D6B3D5B00790365 /* iOSKnowledgePoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC910551D6B3D5B00790365 /* iOSKnowledgePoint */ = {
+			isa = PBXGroup;
+			children = (
+				9AC910591D6B3D5B00790365 /* AppDelegate.h */,
+				9AC9105A1D6B3D5B00790365 /* AppDelegate.m */,
+				9AC9105C1D6B3D5B00790365 /* ViewController.h */,
+				9AC9105D1D6B3D5B00790365 /* ViewController.m */,
+				9AC9105F1D6B3D5B00790365 /* Main.storyboard */,
+				9AC910621D6B3D5B00790365 /* Assets.xcassets */,
+				9AC910641D6B3D5B00790365 /* LaunchScreen.storyboard */,
+				9AC910671D6B3D5B00790365 /* Info.plist */,
+				9AC910561D6B3D5B00790365 /* Supporting Files */,
+			);
+			path = iOSKnowledgePoint;
+			sourceTree = "<group>";
+		};
+		9AC910561D6B3D5B00790365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AC910571D6B3D5B00790365 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AC9106D1D6B3DCD00790365 /* ZS_Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9106E1D6B3DEB00790365 /* ZSTools.h */,
+				9AC9106F1D6B3DEB00790365 /* ZSTools.m */,
+			);
+			name = ZS_Tools;
+			path = iOSKnowledgePoint/ZS_Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC910521D6B3D5B00790365 /* iOSKnowledgePoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC9106A1D6B3D5B00790365 /* Build configuration list for PBXNativeTarget "iOSKnowledgePoint" */;
+			buildPhases = (
+				9AC9104F1D6B3D5B00790365 /* Sources */,
+				9AC910501D6B3D5B00790365 /* Frameworks */,
+				9AC910511D6B3D5B00790365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSKnowledgePoint;
+			productName = iOSKnowledgePoint;
+			productReference = 9AC910531D6B3D5B00790365 /* iOSKnowledgePoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC9104B1D6B3D5B00790365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chenzhongsong;
+				TargetAttributes = {
+					9AC910521D6B3D5B00790365 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AC9104E1D6B3D5B00790365 /* Build configuration list for PBXProject "iOSKnowledgePoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC9104A1D6B3D5B00790365;
+			productRefGroup = 9AC910541D6B3D5B00790365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC910521D6B3D5B00790365 /* iOSKnowledgePoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC910511D6B3D5B00790365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC910661D6B3D5B00790365 /* LaunchScreen.storyboard in Resources */,
+				9AC910631D6B3D5B00790365 /* Assets.xcassets in Resources */,
+				9AC910611D6B3D5B00790365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC9104F1D6B3D5B00790365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC9105E1D6B3D5B00790365 /* ViewController.m in Sources */,
+				9AC9105B1D6B3D5B00790365 /* AppDelegate.m in Sources */,
+				9AC910701D6B3DEB00790365 /* ZSTools.m in Sources */,
+				9AC910581D6B3D5B00790365 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AC9105F1D6B3D5B00790365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC910601D6B3D5B00790365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AC910641D6B3D5B00790365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC910651D6B3D5B00790365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AC910681D6B3D5B00790365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC910691D6B3D5B00790365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC9106B1D6B3D5B00790365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSKnowledgePoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czs.iOSKnowledgePoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AC9106C1D6B3D5B00790365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSKnowledgePoint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czs.iOSKnowledgePoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC9104E1D6B3D5B00790365 /* Build configuration list for PBXProject "iOSKnowledgePoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC910681D6B3D5B00790365 /* Debug */,
+				9AC910691D6B3D5B00790365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC9106A1D6B3D5B00790365 /* Build configuration list for PBXNativeTarget "iOSKnowledgePoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9106B1D6B3D5B00790365 /* Debug */,
+				9AC9106C1D6B3D5B00790365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC9104B1D6B3D5B00790365 /* Project object */;
+}
