@@ -325,8 +325,9 @@
     需要设置其preferredMaxLayoutWidth属性才能正常显示多行内容。另外如果出现显示不全文本，可以在计算的结果基础上＋0.5。
  */
 + (void)heightForLabel {
-    
+    //attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:14]}
     //CGFloat h = [model.message boundingRectWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width - kGAP-kAvatar_Size - 2*kGAP, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size.height+0.5;
+    //通常使用NSStringDrawingUsesLineFragmentOrigin，如果options参数为NSStringDrawingUsesLineFragmentOrigin，那么整个文本将以每行组成的矩形为单位计算整个文本的尺寸。
 }
 
 
